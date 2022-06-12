@@ -23,7 +23,7 @@ use FlickerLeap\Rectangle;
 
         <h1>PHP Engineer Test</h1>
 
-        <h2>Hello World</h2>
+      <?= '<h2>Hello World</h2>'; ?>
 
         <p>At the end of this test, you should have all the answers on this page.</p>
 
