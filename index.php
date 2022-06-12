@@ -10,12 +10,10 @@ require __DIR__ . '/vendor/autoload.php';
 use FlickerLeap\Diamond;
 use FlickerLeap\Rectangle;
 use FlickerLeap\Square;
-
-//use FlickerLeap\Diamond;
 use Httpful\Request;
 
-
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,9 +45,9 @@ $sqr->draw();
 
 <?php
 // output your diamond here
-
 $diamond = new Diamond(10);
 $diamond->draw();
+
 ?>
 
 <h2>Output your rectangle</h2>
@@ -57,8 +55,8 @@ $diamond->draw();
 <?php
 // output your working rectangle here
 $rec = new Rectangle(15);
-
 $rec->draw();
+
 ?>
 
 
@@ -66,16 +64,12 @@ $rec->draw();
 <?php
 // Use the Httpful client to output the API results here.
 
-
 $uri = "https://pokeapi.co/api/v2/pokemon/mewtwo/";
-$res = \Httpful\Request::get($uri)
-    ->expectsJson()
-    ->send();
+$res = Request::get($uri)->expectsJson()->send();
 
 $name = $res->body->name;
 $type = $res->body->types[0]->type->name;
 $pic = $res->body->sprites->front_default;
-
 
 ?>
 
@@ -96,10 +90,10 @@ $pic = $res->body->sprites->front_default;
 
 </table>
 
-
 <h2>Recommendations</h2>
 
-<p><!-- Let us know how we can improve this test here --></p>
+<p>I enjoyed the test. However, I would also recommend more frontend (e.g. VueJS) tasks even though its not necessary
+    for PHP Engineers</p>
 
 </body>
 
