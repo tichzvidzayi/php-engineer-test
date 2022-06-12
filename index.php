@@ -33,7 +33,6 @@ use FlickerLeap\Square;
         <?php
             // implement the square class here
            $sqr = new Square(10);
-
            $sqr->draw();
         ?>
 
@@ -41,6 +40,9 @@ use FlickerLeap\Square;
 
         <?php
             // output your diamond here
+
+            $diamond = new Diamond(7);
+            $diamond->draw();
         ?>
 
         <h2>Output your rectangle</h2>
