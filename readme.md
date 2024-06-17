@@ -1,8 +1,4 @@
-# Flicker Leap PHP Engineer Test
-
-## About
-
-This test has been designed to test the fundamentals required for PHP Engineers to work at [Flicker Leap](https://flickerleap.com). This test is continuously being updated to further test the fundamentals of being a PHP Engineer.
+This test is continuously being updated to further test the fundamentals of being a PHP Engineer.
 
 ## We will test for the following:
 
@@ -13,7 +9,7 @@ This test has been designed to test the fundamentals required for PHP Engineers 
 4. Ability to work with APIs
 5. Ability to solve logic problems
 
-## Expected outcomes
+## Exected outcomes
 
 - Ability to fulfill role
 - Problem solving
@@ -59,12 +55,7 @@ Do a GET request to `http://pokeapi.co/api/v2/pokemon/mewtwo/` and output 3 item
 
 ### 8. Suggest an improvement to the test
 
-We believe in collective knowledge. Suggest a way (any constructive way) that can improve this test.
-
-## Work at Flicker Leap
-
-Want to work with our tech team? We obviously supply things like coffee and tea. However, what we are is a team of people that love technology and learning. If that tickles your fancy then why not find a role for you [here](https://flickerleap.com/about-us/careers/)
-
+We believe in collective knowledge. Suggest a way (any constructive way) that can improve this tes
 ## License
 
 This test is released under the MIT Public License.
